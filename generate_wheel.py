@@ -27,7 +27,7 @@ def generate_wheel_calendar():
     
     prev_lon = get_solar_lon(today)
     
-    for i in range(1, 365):
+    for i in range(1, 1800):
         current_date = today + datetime.timedelta(days=i)
         lon = get_solar_lon(current_date)
         
